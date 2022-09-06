@@ -19,7 +19,7 @@ class Stack:
   def status(self):
     if(self.head  != None):
       temp = self.head
-     while temp.next!= None:
+      while temp.next!= None:
         print(temp.data, end = "")
         print("=>", end = "")
         temp = temp.next
