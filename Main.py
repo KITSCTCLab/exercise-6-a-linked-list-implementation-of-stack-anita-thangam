@@ -19,13 +19,13 @@ class Stack:
   def status(self):
     if(self.head  != None):
       temp = self.head
-      while temp.next!= None:
+     while temp.next!= None:
         print(temp.data, end = "")
         print("=>", end = "")
         temp = temp.next
       print(temp.data, end = "=>")
   
- print("None")
+    print("None")
 
 
 stack = Stack()
@@ -39,6 +39,6 @@ for i in range(len(operations)):
     stack.push(int(data[i]))
   elif operations[i] == "pop":
     stack.pop()
-stack.status()
+ stack.status()
 
 
