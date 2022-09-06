@@ -38,7 +38,7 @@ for i in range(len(operations)):
   if operations[i] == "push":
     stack.push(int(data[i]))
   elif operations[i] == "pop":
-    stack.pop()
+    stack pop()
  stack.status()
 
 
