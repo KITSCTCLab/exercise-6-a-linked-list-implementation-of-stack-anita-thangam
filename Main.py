@@ -9,19 +9,18 @@ class Stack:
     self.head = None
 
   def push(self, data) -> None:
-    # Write your code here
+    
 
   def pop(self) -> None:
-    # Write your code here
-
+   
   def status(self):
-    """
+   
     It prints all the elements of stack.
-    """
-    # Write your code here  
+   
+     
 
 
-# Do not change the following code
+
 stack = Stack()
 operations = []
 for specific_operation in input().split(','):
